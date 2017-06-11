@@ -1,0 +1,28 @@
+{
+  "name": "react-ssr",
+  "version": "1.0.0",
+  "description": "For learning how to setup my own react structure with SSR, webpack and other awesome tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seekinternational/react-ssr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seekinternational/react-ssr/issues"
+  },
+  "homepage": "https://github.com/seekinternational/react-ssr#readme",
+  "devDependencies": {
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "react": "^15.5.4"
+  }
+}
